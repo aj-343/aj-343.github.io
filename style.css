@@ -99,7 +99,7 @@ input[type="submit"] {
   top: 0px;
   width: auto;
   height: var(--bgImageHeight);
-  
+
   z-index: -1;
 }
 
@@ -119,20 +119,20 @@ input[type="submit"] {
 }
 
 .Navigation {
-  display:inline;
+  display: inline;
   font-size: 25px;
   padding-right: 25px;
   padding-left: 25px;
 }
 
 .dts {
-    color: var(--backgroundColor);
-    font-size: 25px;
-    float: left;
-    margin-top: 37.5px;
-    margin-bottom: 37.5px;
-    padding-right: 25px;
-    padding-left: 50px;
+  color: var(--backgroundColor);
+  font-size: 25px;
+  float: left;
+  margin-top: 37.5px;
+  margin-bottom: 37.5px;
+  padding-right: 25px;
+  padding-left: 50px;
 }
 
 a {
@@ -142,7 +142,7 @@ a {
   text-decoration: none;
 }
 .Page {
-  position:absolute;
+  position: absolute;
   top: var(--bgImageHeight);
   bottom: 0px;
   left: 0px;
