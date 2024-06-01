@@ -1,0 +1,153 @@
+:root {
+  --radius: 5px;
+  --redColor: #e51636;
+  --navyColor: #004f71;
+  --backgroundColor: #f2f2f2;
+  --borderColor: #dadada;
+  --textColor: #5e5e5e;
+  --bgImageHeight: 100px;
+}
+
+body {
+  background-color: var(--backgroundColor);
+  margin: 0px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  min-width: 750px;
+}
+
+.Authenticate {
+  width: auto;
+  height: auto;
+  left: 35%;
+  right: 35%;
+  top: 15%;
+  bottom: 15%;
+  position: absolute;
+  border-radius: var(--radius);
+  border-color: var(--borderColor);
+  border-style: solid;
+  border-width: 2.5px;
+  text-align: center;
+  min-width: 300px;
+}
+
+.SignIn {
+  position: relative;
+  margin-top: 50px;
+  color: var(--textColor);
+  width: 100%;
+  border-bottom-color: var(--borderColor);
+  border-bottom-style: solid;
+  border-bottom-width: 2.5px;
+  padding-bottom: 50px;
+  font-size: 35px;
+}
+
+h1 {
+  color: var(--textColor);
+  font-size: 25px;
+}
+
+.LanguageSelector {
+  width: 100%;
+  border-bottom-color: var(--borderColor);
+  border-bottom-style: solid;
+  border-bottom-width: 2.5px;
+}
+
+.language {
+  font-size: 25px;
+  margin: 25px;
+}
+
+.PasswordArea {
+  width: 100%;
+}
+.Password {
+  position: relative;
+  color: var(--textColor);
+  right: auto;
+  font-size: 25px;
+  display: inline;
+}
+.TextBox {
+  position: relative;
+  margin: 50px;
+  padding: 10px;
+  display: inline;
+}
+
+input[type="submit"] {
+  background-color: #004f71;
+  width: fit-content;
+  font-size: 25px;
+  color: #f2f2f2;
+  border-radius: var(--radius);
+  margin-bottom: 5px;
+  font-size: 35px;
+  padding: 5px;
+}
+
+.NavigationArea {
+  background-image: url(StoreFront.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  width: auto;
+  height: var(--bgImageHeight);
+  
+  z-index: -1;
+}
+
+.NavigationBar {
+  background-color: var(--navyColor);
+  margin: 25px;
+  border-radius: var(--radius);
+  height: 100px;
+}
+
+.NavigationList {
+  list-style-type: none;
+  float: right;
+  margin-top: 37.5px;
+  margin-bottom: 37.5px;
+  padding-right: 25px;
+}
+
+.Navigation {
+  display:inline;
+  font-size: 25px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.dts {
+    color: var(--backgroundColor);
+    font-size: 25px;
+    float: left;
+    margin-top: 37.5px;
+    margin-bottom: 37.5px;
+    padding-right: 25px;
+    padding-left: 50px;
+}
+
+a {
+  list-style: none;
+  color: var(--backgroundColor);
+  font-weight: bolder;
+  text-decoration: none;
+}
+.Page {
+  position:absolute;
+  top: var(--bgImageHeight);
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: var(--backgroundColor);
+  width: auto;
+  height: auto;
+}
